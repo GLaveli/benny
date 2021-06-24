@@ -12,17 +12,21 @@
 html, body {
   height: 100%;
   min-height: 100%;
+  
 }
 
+
 div.container {
-  min-height: 10em;
-  display: table-cell;
-  vertical-align: middle
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
 }
 
 #gameOver {
-  top: 180px;
-  left: 25px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   padding-top: 10px;
   box-shadow: 2px 1px 12px black;
   font-size: 40px;
